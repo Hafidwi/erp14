@@ -1,0 +1,1800 @@
+2024-04-19 09:22:55,559 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:23:55,690 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:24:55,727 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:25:55,840 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:26:55,953 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:27:56,042 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:28:56,163 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:29:56,285 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:30:56,402 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:31:56,510 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:32:56,630 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:33:56,747 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:34:56,849 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:35:56,947 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:36:57,092 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:37:57,205 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:38:57,302 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:39:57,419 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:40:57,527 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:41:57,600 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:42:57,680 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:43:57,785 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:44:57,870 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:45:57,981 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:46:58,095 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:47:58,149 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:48:58,262 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:49:58,375 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:50:58,491 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:51:58,576 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:52:58,702 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:53:58,792 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:54:58,897 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:55:59,005 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:56:59,043 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:57:59,174 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:58:59,227 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 09:59:59,316 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:00:59,432 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:01:59,558 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:02:59,674 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:03:59,789 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:04:59,880 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:05:59,994 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:07:00,075 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:08:00,173 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:09:00,235 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:10:00,347 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:11:00,462 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:12:00,576 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:13:00,676 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:14:00,748 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:15:00,858 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:16:00,940 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:17:01,028 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:18:01,119 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:19:01,208 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:20:01,295 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:21:01,385 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:22:01,469 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:23:01,563 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:24:01,673 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:25:01,787 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:26:01,879 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:27:01,987 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:28:02,040 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:29:02,137 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:30:02,215 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:31:02,328 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:32:02,438 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:33:02,521 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:34:02,627 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:35:02,741 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:36:02,858 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+
+2024-04-19 10:37:02,945 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+Traceback (most recent call last):
+  File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
+    enqueue_events(site=site)
+  File "apps/frappe/frappe/utils/scheduler.py", line 94, in enqueue_events
+    queued_jobs = get_jobs(site=site, key="job_type").get(site) or []
+  File "apps/frappe/frappe/utils/background_jobs.py", line 298, in get_jobs
+    jobs = q.jobs + get_running_jobs_in_queue(q)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 335, in get_running_jobs_in_queue
+    workers = get_workers(queue)
+  File "apps/frappe/frappe/utils/background_jobs.py", line 327, in get_workers
+    return Worker.all(queue=queue)
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 257, in all
+    workers = [
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 258, in <listcomp>
+    cls.find_by_key(
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 685, in find_by_key
+    worker.refresh()
+  File "env/lib/python3.10/site-packages/rq/worker.py", line 1041, in refresh
+    queues = as_text(queues)
+  File "env/lib/python3.10/site-packages/rq/utils.py", line 58, in as_text
+    raise ValueError('Unknown type %r' % type(v))
+ValueError: Unknown type <class 'NoneType'>
+

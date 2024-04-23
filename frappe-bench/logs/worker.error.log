@@ -1,0 +1,258 @@
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 200, in start_worker
+    start_worker(
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 265, in start_worker
+    worker.work(
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 434, in work
+    self.teardown()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 988, in teardown
+    self.register_death()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 774, in register_death
+    p.execute()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError:     Error 111 connecting to 127.0.0.1:11000. Connection refused.self.run()
+
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+Traceback (most recent call last):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 615, in _connect
+    raise err
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 109, in <module>
+    main()
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 782, in main
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+        rv = self.invoke(ctx)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1259, in invoke
+    return self._parser.can_read(timeout)
+      File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+return _process_result(sub_ctx.command.invoke(sub_ctx))
+      File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 1066, in invoke
+return self.read_from_socket(timeout=timeout,
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.    return ctx.invoke(self.callback, **ctx.params)
+
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 200, in start_worker
+    start_worker(
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 265, in start_worker
+    worker.work(
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 434, in work
+    self.teardown()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 988, in teardown
+    self.register_death()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 774, in register_death
+    p.execute()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 4012, in execute
+    conn = self.connection_pool.get_connection('MULTI',
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to 127.0.0.1:11000. Connection refused.
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:107: DeprecationWarning: The `resolve_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 416, in can_read
+    return self.read_from_socket(timeout=timeout,
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/redis/connection.py", line 429, in read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+2024-04-16 11:28:52,561 [Job f1c05eb3-e1f2-4718-a216-d41b5238afda]: exception raised while executing (frappe.utils.background_jobs.execute_job)
+Traceback (most recent call last):
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/model/base_document.py", line 519, in db_insert
+    frappe.db.sql(
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/database/database.py", line 244, in sql
+    self._cursor.execute(query, values)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 158, in execute
+    result = self._query(query)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/cursors.py", line 325, in _query
+    conn.query(q)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 549, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 779, in _read_query_result
+    result.read()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 1157, in read
+    first_packet = self.connection._read_packet()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/connections.py", line 729, in _read_packet
+    packet.raise_for_error()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry 'hafi' for key 'PRIMARY'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/worker.py", line 1418, in perform_job
+    rv = job.perform()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1225, in perform
+    self._result = self._execute()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/rq/job.py", line 1262, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 191, in execute_job
+    retval = method(**kwargs)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 1152, in create_contact
+    contact.insert(ignore_permissions=True, ignore_links=ignore_links, ignore_mandatory=ignore_mandatory)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/model/document.py", line 273, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "/home/erp14/frappe-bench/apps/frappe/frappe/model/base_document.py", line 546, in db_insert
+    raise frappe.DuplicateEntryError(self.doctype, self.name, e)
+frappe.exceptions.DuplicateEntryError: ('Contact', 'hafi', IntegrityError(1062, "Duplicate entry 'hafi' for key 'PRIMARY'"))
+

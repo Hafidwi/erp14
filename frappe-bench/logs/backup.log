@@ -1,0 +1,24 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3286d8304fcd96a6 -p********** _3286d8304fcd96a6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext14.com/private/backups/20240416_120001-erpnext14_com-database.sql.gz
+
+Backup Summary for erpnext14.com at 2024-04-16 12:00:03.604657
+Config  : ./erpnext14.com/private/backups/20240416_120001-erpnext14_com-site_config_backup.json 118.0B
+Database: ./erpnext14.com/private/backups/20240416_120001-erpnext14_com-database.sql.gz         1.1MiB
+Backup for Site erpnext14.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3286d8304fcd96a6 -p********** _3286d8304fcd96a6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext14.com/private/backups/20240417_120002-erpnext14_com-database.sql.gz
+
+Backup Summary for erpnext14.com at 2024-04-17 12:00:04.580284
+Config  : ./erpnext14.com/private/backups/20240417_120002-erpnext14_com-site_config_backup.json 118.0B
+Database: ./erpnext14.com/private/backups/20240417_120002-erpnext14_com-database.sql.gz         1.1MiB
+Backup for Site erpnext14.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3286d8304fcd96a6 -p********** _3286d8304fcd96a6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext14.com/private/backups/20240417_180001-erpnext14_com-database.sql.gz
+
+Backup Summary for erpnext14.com at 2024-04-17 18:00:04.070251
+Config  : ./erpnext14.com/private/backups/20240417_180001-erpnext14_com-site_config_backup.json 118.0B
+Database: ./erpnext14.com/private/backups/20240417_180001-erpnext14_com-database.sql.gz         1.1MiB
+Backup for Site erpnext14.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _3286d8304fcd96a6 -p********** _3286d8304fcd96a6 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext14.com/private/backups/20240422_120002-erpnext14_com-database.sql.gz
+
+Backup Summary for erpnext14.com at 2024-04-22 12:00:05.524683
+Config  : ./erpnext14.com/private/backups/20240422_120002-erpnext14_com-site_config_backup.json 118.0B
+Database: ./erpnext14.com/private/backups/20240422_120002-erpnext14_com-database.sql.gz         1.1MiB
+Backup for Site erpnext14.com has been successfully completed

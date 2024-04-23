@@ -1,0 +1,174 @@
+2024-04-16 09:56:12,901 DEBUG cd frappe-bench && python3 -m venv env
+2024-04-16 09:56:15,290 DEBUG cd frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-04-16 09:56:19,011 DEBUG cd frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-04-16 09:56:21,987 LOG Getting frappe
+2024-04-16 09:56:21,987 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2024-04-16 09:56:44,890 LOG Installing frappe
+2024-04-16 09:56:44,890 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/frappe 
+2024-04-16 10:00:07,980 DEBUG cd /home/erp14/frappe-bench/apps/frappe && yarn install --check-files
+2024-04-16 10:02:17,589 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-16 10:02:17,592 DEBUG cd frappe-bench && bench build
+2024-04-16 10:02:17,809 INFO /usr/local/bin/bench build
+2024-04-16 10:02:41,999 LOG setting up backups
+2024-04-16 10:02:42,069 LOG backups were set up
+2024-04-16 10:02:42,070 INFO Bench frappe-bench initialized
+2024-04-16 10:08:35,104 INFO /usr/local/bin/bench new-site erpnext14.com
+2024-04-16 10:10:26,731 INFO /usr/local/bin/bench get-app payments
+2024-04-16 10:10:27,306 LOG Getting payments
+2024-04-16 10:10:27,307 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2024-04-16 10:10:28,670 LOG Installing payments
+2024-04-16 10:10:28,670 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/payments 
+2024-04-16 10:10:34,529 DEBUG bench build --app payments
+2024-04-16 10:10:34,615 INFO /usr/local/bin/bench build --app payments
+2024-04-16 10:10:39,315 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-16 10:10:48,232 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2024-04-16 10:10:48,727 LOG Getting erpnext
+2024-04-16 10:10:48,727 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2024-04-16 10:11:01,539 LOG Installing erpnext
+2024-04-16 10:11:01,539 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/erpnext 
+2024-04-16 10:11:40,460 DEBUG cd /home/erp14/frappe-bench/apps/erpnext && yarn install --check-files
+2024-04-16 10:11:43,044 DEBUG bench build --app erpnext
+2024-04-16 10:11:43,123 INFO /usr/local/bin/bench build --app erpnext
+2024-04-16 10:11:48,612 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-04-16 10:13:48,862 INFO /usr/local/bin/bench --site erpnext14.com install-app erpnext
+2024-04-16 10:17:12,726 INFO /usr/local/bin/bench --site erpnext14.com install-app hrms
+2024-04-16 10:17:27,812 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 10:17:29,346 LOG Getting hrms
+2024-04-16 10:17:29,346 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2024-04-16 10:17:36,265 LOG Installing hrms
+2024-04-16 10:17:36,265 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 10:17:38,155 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 10:19:15,643 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 10:19:15,644 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 10:21:42,844 INFO /usr/local/bin/bench --site erpnext14.com install-app hrms
+2024-04-16 10:21:54,679 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 10:21:58,528 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16
+2024-04-16 10:21:58,531 LOG Getting hrms
+2024-04-16 10:21:58,532 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 10:22:09,328 LOG Installing hrms
+2024-04-16 10:22:09,328 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 10:22:12,796 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 10:22:15,239 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 10:22:15,239 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 10:26:45,359 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 10:26:47,781 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_1
+2024-04-16 10:26:47,785 LOG Getting hrms
+2024-04-16 10:26:47,785 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 10:26:54,747 LOG Installing hrms
+2024-04-16 10:26:54,747 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 10:26:56,681 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 10:26:59,787 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 10:26:59,788 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 10:55:49,535 INFO /usr/local/bin/bench start
+2024-04-16 10:55:50,244 INFO /usr/local/bin/bench serve --port 8000
+2024-04-16 10:55:50,316 INFO /usr/local/bin/bench schedule
+2024-04-16 10:55:50,321 INFO /usr/local/bin/bench worker
+2024-04-16 10:55:50,321 INFO /usr/local/bin/bench watch
+2024-04-16 11:11:38,981 INFO /usr/local/bin/bench start
+2024-04-16 11:11:39,385 INFO /usr/local/bin/bench schedule
+2024-04-16 11:11:39,389 INFO /usr/local/bin/bench watch
+2024-04-16 11:11:39,390 INFO /usr/local/bin/bench worker
+2024-04-16 11:11:39,396 INFO /usr/local/bin/bench serve --port 8000
+2024-04-16 11:12:52,662 INFO /usr/local/bin/bench start
+2024-04-16 11:12:53,204 INFO /usr/local/bin/bench watch
+2024-04-16 11:12:53,207 INFO /usr/local/bin/bench worker
+2024-04-16 11:12:53,214 INFO /usr/local/bin/bench schedule
+2024-04-16 11:12:53,248 INFO /usr/local/bin/bench serve --port 8000
+2024-04-16 11:15:35,942 INFO /usr/local/bin/bench --site erpnext14.com enable-scheduler
+2024-04-16 11:15:59,302 INFO /usr/local/bin/bench --site erpnext14.com set-maintenance-mode off
+2024-04-16 11:16:13,128 INFO /usr/local/bin/bench setup production erp14
+2024-04-16 11:16:13,145 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-04-16 11:17:32,739 DEBUG bench setup role fail2ban
+2024-04-16 11:17:32,826 INFO /usr/local/bin/bench setup role fail2ban
+2024-04-16 11:17:48,786 DEBUG bench setup role nginx
+2024-04-16 11:17:48,867 INFO /usr/local/bin/bench setup role nginx
+2024-04-16 11:18:04,185 DEBUG bench setup role supervisor
+2024-04-16 11:18:04,278 INFO /usr/local/bin/bench setup role supervisor
+2024-04-16 11:18:14,326 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-04-16 11:18:14,326 LOG Updated supervisord.conf: 'chown' changed from '' to 'erp14:erp14'
+2024-04-16 11:18:14,397 DEBUG sudo /usr/sbin/nginx -t
+2024-04-16 11:18:14,411 DEBUG sudo systemctl reload nginx
+2024-04-16 11:19:27,598 INFO /usr/local/bin/bench setup nginx
+2024-04-16 11:19:47,467 INFO /usr/local/bin/bench setup production erp14
+2024-04-16 11:19:47,472 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-04-16 11:19:47,472 LOG Updated supervisord.conf: 'chown' changed from '' to 'erp14:erp14'
+2024-04-16 11:19:54,527 DEBUG /usr/bin/supervisorctl reread
+2024-04-16 11:19:54,671 DEBUG /usr/bin/supervisorctl update
+2024-04-16 11:19:54,863 DEBUG sudo /usr/sbin/nginx -t
+2024-04-16 11:19:54,886 DEBUG sudo systemctl reload nginx
+2024-04-16 11:19:54,980 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-16 11:19:54,985 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-16 11:19:54,995 INFO /usr/local/bin/bench schedule
+2024-04-16 11:20:23,569 INFO /usr/local/bin/bench start
+2024-04-16 11:22:58,980 INFO /usr/local/bin/bench restart
+2024-04-16 11:22:59,241 DEBUG cd /home/erp14/frappe-bench && sudo supervisorctl restart frappe-bench-web:
+2024-04-16 11:23:01,854 DEBUG cd /home/erp14/frappe-bench && sudo supervisorctl restart frappe-bench-workers:
+2024-04-16 11:23:02,264 INFO /usr/local/bin/bench schedule
+2024-04-16 11:23:02,274 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-16 11:23:02,275 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-16 11:23:10,112 INFO /usr/local/bin/bench start
+2024-04-16 11:31:53,204 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-16 11:31:53,205 INFO /usr/local/bin/bench schedule
+2024-04-16 11:31:53,205 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-16 11:50:45,665 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-16 11:50:45,665 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-16 11:50:45,671 INFO /usr/local/bin/bench schedule
+2024-04-16 11:54:29,762 INFO /usr/local/bin/bench --site erpnext14.com install-app hrms
+2024-04-16 11:54:58,628 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 11:55:01,188 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_2
+2024-04-16 11:55:01,191 LOG Getting hrms
+2024-04-16 11:55:01,191 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 11:55:06,151 LOG Installing hrms
+2024-04-16 11:55:06,152 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 11:55:11,529 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 11:55:14,525 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 11:55:14,525 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 12:00:01,492 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-16 13:09:17,888 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 13:09:22,661 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_3
+2024-04-16 13:09:22,668 LOG Getting hrms
+2024-04-16 13:09:22,668 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 13:09:27,236 LOG Installing hrms
+2024-04-16 13:09:27,237 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 13:09:29,957 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 13:09:31,611 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 13:09:31,611 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 13:10:13,217 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 13:10:14,782 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_4
+2024-04-16 13:10:14,785 LOG Getting hrms
+2024-04-16 13:10:14,785 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 13:10:20,336 LOG Installing hrms
+2024-04-16 13:10:20,337 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 13:10:22,344 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 13:10:23,817 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 13:10:23,817 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 13:16:48,559 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 13:16:55,341 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_5
+2024-04-16 13:16:55,344 LOG Getting hrms
+2024-04-16 13:16:55,344 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 13:16:59,714 LOG Installing hrms
+2024-04-16 13:16:59,714 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 13:17:01,717 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 13:17:03,155 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 13:17:03,155 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-16 13:28:50,276 INFO /usr/local/bin/bench get-app hrms
+2024-04-16 13:28:52,416 INFO App moved from apps/hrms to archived/apps/hrms-2024-04-16_6
+2024-04-16 13:28:52,418 LOG Getting hrms
+2024-04-16 13:28:52,418 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git --branch develop --depth 1 --origin upstream
+2024-04-16 13:28:56,727 LOG Installing hrms
+2024-04-16 13:28:56,728 DEBUG cd /home/erp14/frappe-bench && /home/erp14/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/erp14/frappe-bench/apps/hrms 
+2024-04-16 13:28:58,826 DEBUG cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files
+2024-04-16 13:29:00,567 WARNING cd /home/erp14/frappe-bench/apps/hrms && yarn install --check-files executed with exit code 1
+2024-04-16 13:29:00,567 WARNING /usr/local/bin/bench get-app hrms executed with exit code 1
+2024-04-17 12:00:02,126 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-17 18:00:01,504 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-20 11:15:59,141 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-20 11:15:59,142 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-20 11:15:59,141 INFO /usr/local/bin/bench schedule
+2024-04-22 10:13:27,664 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-22 10:13:27,664 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-22 10:13:27,677 INFO /usr/local/bin/bench schedule
+2024-04-22 12:00:01,723 INFO /usr/local/bin/bench --verbose --site all backup
+2024-04-23 09:12:08,285 INFO /usr/local/bin/bench schedule
+2024-04-23 09:12:08,287 INFO /usr/local/bin/bench worker --queue short,default
+2024-04-23 09:12:08,293 INFO /usr/local/bin/bench worker --queue long,default,short
