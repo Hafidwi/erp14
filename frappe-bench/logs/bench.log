@@ -172,3 +172,4 @@
 2024-04-23 09:12:08,285 INFO /usr/local/bin/bench schedule
 2024-04-23 09:12:08,287 INFO /usr/local/bin/bench worker --queue short,default
 2024-04-23 09:12:08,293 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-04-24 12:00:02,216 INFO /usr/local/bin/bench --verbose --site all backup
