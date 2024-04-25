@@ -1,4 +1,4 @@
-2024-04-19 14:46:05,321 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:05:13,418 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -22,7 +22,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:47:05,403 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:06:13,905 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -46,7 +46,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:48:05,514 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:07:13,969 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -70,7 +70,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:49:05,597 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:08:14,088 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -94,7 +94,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:50:05,628 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:09:14,209 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -118,7 +118,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:51:05,749 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:10:14,328 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -142,7 +142,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:52:05,828 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:11:14,443 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -166,7 +166,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:53:05,962 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:12:14,558 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -190,7 +190,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:54:06,098 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:13:14,684 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -214,7 +214,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:55:06,211 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:14:14,794 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -238,7 +238,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:56:06,319 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:15:14,909 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -262,7 +262,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:57:06,397 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:16:15,016 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -286,7 +286,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:58:06,508 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:17:15,136 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -310,7 +310,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 14:59:06,692 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:18:15,248 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -334,7 +334,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:00:06,781 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:19:15,365 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -358,7 +358,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:01:06,877 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:20:15,442 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -382,7 +382,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:02:06,943 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:21:15,482 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -406,7 +406,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:03:07,041 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:22:15,585 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -430,7 +430,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:04:07,149 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:23:15,709 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -454,7 +454,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:05:07,233 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:24:15,827 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -478,7 +478,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:06:07,358 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:25:15,942 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -502,7 +502,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:07:07,400 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:26:16,062 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -526,7 +526,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:08:07,438 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:27:16,200 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -550,7 +550,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:09:07,501 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:28:16,319 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -574,7 +574,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:10:07,585 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:29:16,429 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -598,7 +598,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:11:07,673 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:30:16,514 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -622,7 +622,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:12:07,768 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:31:16,629 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -646,7 +646,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:13:07,883 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:32:16,737 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -670,7 +670,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:14:07,987 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:33:16,852 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -694,7 +694,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:15:08,149 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:34:16,969 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -718,7 +718,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:16:08,232 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:35:17,085 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -742,7 +742,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:17:08,248 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:36:17,200 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -766,7 +766,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:18:08,282 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:37:17,283 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -790,7 +790,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:19:08,360 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:38:17,350 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -814,7 +814,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:20:08,446 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:39:17,464 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -838,7 +838,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:21:08,532 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:40:17,570 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -862,7 +862,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:22:08,596 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:41:17,680 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -886,7 +886,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:41:57,977 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:42:17,766 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -910,7 +910,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:42:58,130 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:43:17,881 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -934,7 +934,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:43:58,271 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:44:17,996 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -958,7 +958,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:44:58,402 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:45:18,037 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -982,7 +982,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:45:58,519 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:46:18,150 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1006,7 +1006,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:46:58,627 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:47:18,263 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1030,7 +1030,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:47:58,754 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:48:18,381 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1054,7 +1054,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:48:58,872 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:49:18,495 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1078,7 +1078,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:49:58,969 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:50:18,629 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1102,7 +1102,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:50:58,987 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:51:18,716 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1126,7 +1126,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:51:59,087 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:52:18,827 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1150,7 +1150,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:52:59,198 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:53:18,975 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1174,7 +1174,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:53:59,246 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:54:19,149 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1198,7 +1198,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:54:59,334 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:55:19,266 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1222,7 +1222,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:55:59,429 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:56:19,413 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1246,7 +1246,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:56:59,544 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:57:19,494 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1270,7 +1270,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:57:59,662 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:58:19,613 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1294,7 +1294,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:58:59,753 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 13:59:19,741 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1318,7 +1318,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 15:59:59,831 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:00:19,856 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1342,7 +1342,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:00:59,867 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:01:19,975 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1366,7 +1366,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:01:59,977 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:02:20,099 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1390,7 +1390,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:03:00,085 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:03:20,222 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1414,7 +1414,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:04:00,124 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:04:20,352 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1438,7 +1438,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:05:00,260 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:05:20,425 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1462,7 +1462,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:06:00,389 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:06:20,600 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1486,7 +1486,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:07:00,497 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:07:20,715 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1510,7 +1510,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:24:05,127 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:08:20,831 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1534,7 +1534,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:25:05,288 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:09:20,940 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1558,7 +1558,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:26:05,407 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:10:21,103 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1582,7 +1582,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:27:05,526 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:11:21,164 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1606,7 +1606,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:28:05,648 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:12:21,280 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1630,7 +1630,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:29:05,769 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:13:21,402 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1654,7 +1654,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:30:05,889 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:14:21,515 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1678,7 +1678,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:31:05,970 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:15:21,625 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1702,7 +1702,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:32:06,018 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:16:21,739 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1726,7 +1726,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:33:06,148 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:17:21,851 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1750,7 +1750,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:34:06,192 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:18:21,913 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)
@@ -1774,7 +1774,7 @@ Traceback (most recent call last):
     raise ValueError('Unknown type %r' % type(v))
 ValueError: Unknown type <class 'NoneType'>
 
-2024-04-19 16:35:06,276 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
+2024-04-22 14:19:21,977 ERROR scheduler Exception in Enqueue Events for Site erpnext14.com
 Traceback (most recent call last):
   File "apps/frappe/frappe/utils/scheduler.py", line 76, in enqueue_events_for_site
     enqueue_events(site=site)

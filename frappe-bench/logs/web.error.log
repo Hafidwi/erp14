@@ -8894,3 +8894,675 @@ Arguments: ()
 [2024-04-24 13:58:56 +0700] [255831] [INFO] Booting worker with pid: 255831
 [2024-04-24 13:58:56 +0700] [255833] [INFO] Booting worker with pid: 255833
 [2024-04-24 13:58:56 +0700] [255834] [INFO] Booting worker with pid: 255834
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255815)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255816)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255817)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255818)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255819)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255820)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255822)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255823)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255824)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255825)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255826)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255828)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255829)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255830)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255831)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255833)
+[2024-04-24 15:17:42 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:255834)
+[2024-04-24 15:17:42 +0700] [255818] [INFO] Worker exiting (pid: 255818)
+[2024-04-24 15:17:42 +0700] [255829] [INFO] Worker exiting (pid: 255829)
+[2024-04-24 15:17:42 +0700] [255820] [INFO] Worker exiting (pid: 255820)
+[2024-04-24 15:17:42 +0700] [255816] [INFO] Worker exiting (pid: 255816)
+[2024-04-24 15:17:42 +0700] [255819] [INFO] Worker exiting (pid: 255819)
+[2024-04-24 15:17:42 +0700] [255825] [INFO] Worker exiting (pid: 255825)
+[2024-04-24 15:17:42 +0700] [255817] [INFO] Worker exiting (pid: 255817)
+[2024-04-24 15:17:42 +0700] [255822] [INFO] Worker exiting (pid: 255822)
+[2024-04-24 15:17:42 +0700] [255833] [INFO] Worker exiting (pid: 255833)
+[2024-04-24 15:17:42 +0700] [255824] [INFO] Worker exiting (pid: 255824)
+[2024-04-24 15:17:42 +0700] [255834] [INFO] Worker exiting (pid: 255834)
+[2024-04-24 15:17:42 +0700] [255826] [INFO] Worker exiting (pid: 255826)
+[2024-04-24 15:17:42 +0700] [255831] [INFO] Worker exiting (pid: 255831)
+[2024-04-24 15:17:42 +0700] [255828] [INFO] Worker exiting (pid: 255828)
+[2024-04-24 15:17:42 +0700] [255823] [INFO] Worker exiting (pid: 255823)
+[2024-04-24 15:17:42 +0700] [255830] [INFO] Worker exiting (pid: 255830)
+[2024-04-24 15:17:42 +0700] [255815] [INFO] Worker exiting (pid: 255815)
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255825) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255830) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255828) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255819) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255820) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255823) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255824) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255829) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255831) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255833) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255834) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255826) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255822) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255816) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:18:43 +0700] [65041] [ERROR] Worker (pid:255818) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1626, in handle
+    def handle(self, record):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+  File "/home/erp14/frappe-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 211, in run
+    self.manage_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 571, in manage_workers
+    self.spawn_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 642, in spawn_workers
+    self.spawn_worker()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 589, in spawn_worker
+    worker = self.worker_class(self.worker_age, self.pid, self.LISTENERS,
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/base.py", line 64, in __init__
+    self.tmp = WorkerTmp(cfg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/workertmp.py", line 23, in __init__
+    fd, name = tempfile.mkstemp(prefix="wgunicorn-", dir=fdir)
+  File "/usr/lib/python3.10/tempfile.py", line 480, in mkstemp
+    return _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+  File "/usr/lib/python3.10/tempfile.py", line 385, in _mkstemp_inner
+    dir = _os.path.abspath(dir)
+  File "/usr/lib/python3.10/posixpath.py", line 377, in abspath
+    def abspath(path):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:255828) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2024-04-24 15:18:43 +0700] [273567] [INFO] Booting worker with pid: 273567
+[2024-04-24 15:18:43 +0700] [273568] [INFO] Booting worker with pid: 273568
+[2024-04-24 15:18:43 +0700] [273569] [INFO] Booting worker with pid: 273569
+[2024-04-24 15:18:43 +0700] [273571] [INFO] Booting worker with pid: 273571
+[2024-04-24 15:18:43 +0700] [273572] [INFO] Booting worker with pid: 273572
+[2024-04-24 15:18:43 +0700] [273573] [INFO] Booting worker with pid: 273573
+[2024-04-24 15:18:43 +0700] [273574] [INFO] Booting worker with pid: 273574
+[2024-04-24 15:18:43 +0700] [273575] [INFO] Booting worker with pid: 273575
+[2024-04-24 15:29:42 +0700] [273576] [INFO] Booting worker with pid: 273576
+[2024-04-24 15:29:42 +0700] [273578] [INFO] Booting worker with pid: 273578
+[2024-04-24 15:29:43 +0700] [273580] [INFO] Booting worker with pid: 273580
+[2024-04-24 15:29:43 +0700] [273581] [INFO] Booting worker with pid: 273581
+[2024-04-24 15:29:43 +0700] [273583] [INFO] Booting worker with pid: 273583
+[2024-04-24 15:29:44 +0700] [273585] [INFO] Booting worker with pid: 273585
+[2024-04-24 15:29:44 +0700] [273587] [INFO] Booting worker with pid: 273587
+[2024-04-24 15:29:44 +0700] [273589] [INFO] Booting worker with pid: 273589
+[2024-04-24 15:29:44 +0700] [273590] [INFO] Booting worker with pid: 273590
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273567)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273568)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273569)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273571)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273572)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273573)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273574)
+[2024-04-24 15:29:45 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273575)
+[2024-04-24 15:29:45 +0700] [273571] [INFO] Worker exiting (pid: 273571)
+[2024-04-24 15:29:45 +0700] [273573] [INFO] Worker exiting (pid: 273573)
+[2024-04-24 15:29:45 +0700] [273574] [INFO] Worker exiting (pid: 273574)
+[2024-04-24 15:29:45 +0700] [273568] [INFO] Worker exiting (pid: 273568)
+[2024-04-24 15:29:45 +0700] [273567] [INFO] Worker exiting (pid: 273567)
+[2024-04-24 15:29:45 +0700] [273572] [INFO] Worker exiting (pid: 273572)
+[2024-04-24 15:29:45 +0700] [273569] [INFO] Worker exiting (pid: 273569)
+[2024-04-24 15:29:45 +0700] [273575] [INFO] Worker exiting (pid: 273575)
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273567) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273567) exited with code 1.
+[2024-04-24 15:29:46 +0700] [273597] [INFO] Booting worker with pid: 273597
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273572) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273572) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273573) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273573) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273569) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273569) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273575) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273575) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273574) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273574) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273571) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273571) exited with code 1.
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273568) exited with code 1
+[2024-04-24 15:29:46 +0700] [65041] [ERROR] Worker (pid:273568) exited with code 1.
+[2024-04-24 15:29:46 +0700] [273598] [INFO] Booting worker with pid: 273598
+[2024-04-24 15:29:46 +0700] [273599] [INFO] Booting worker with pid: 273599
+[2024-04-24 15:29:46 +0700] [273600] [INFO] Booting worker with pid: 273600
+[2024-04-24 15:29:46 +0700] [273601] [INFO] Booting worker with pid: 273601
+[2024-04-24 15:29:46 +0700] [273602] [INFO] Booting worker with pid: 273602
+[2024-04-24 15:29:46 +0700] [273603] [INFO] Booting worker with pid: 273603
+[2024-04-24 15:29:46 +0700] [273604] [INFO] Booting worker with pid: 273604
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273576)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273578)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273580)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273581)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273583)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273585)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273587)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273589)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273590)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273597)
+[2024-04-24 15:59:32 +0700] [273580] [INFO] Worker exiting (pid: 273580)
+[2024-04-24 15:59:32 +0700] [273576] [INFO] Worker exiting (pid: 273576)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273598)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273599)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273600)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273601)
+[2024-04-24 15:59:32 +0700] [273581] [INFO] Worker exiting (pid: 273581)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273602)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273603)
+[2024-04-24 15:59:32 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273604)
+[2024-04-24 15:59:32 +0700] [273585] [INFO] Worker exiting (pid: 273585)
+[2024-04-24 15:59:32 +0700] [273587] [INFO] Worker exiting (pid: 273587)
+[2024-04-24 15:59:32 +0700] [273578] [INFO] Worker exiting (pid: 273578)
+[2024-04-24 15:59:32 +0700] [273602] [INFO] Worker exiting (pid: 273602)
+[2024-04-24 15:59:32 +0700] [273600] [INFO] Worker exiting (pid: 273600)
+[2024-04-24 15:59:32 +0700] [273603] [INFO] Worker exiting (pid: 273603)
+[2024-04-24 15:59:32 +0700] [273589] [INFO] Worker exiting (pid: 273589)
+[2024-04-24 15:59:32 +0700] [273599] [INFO] Worker exiting (pid: 273599)
+[2024-04-24 15:59:32 +0700] [273590] [INFO] Worker exiting (pid: 273590)
+[2024-04-24 15:59:32 +0700] [273597] [INFO] Worker exiting (pid: 273597)
+[2024-04-24 15:59:32 +0700] [273583] [INFO] Worker exiting (pid: 273583)
+[2024-04-24 15:59:32 +0700] [273598] [INFO] Worker exiting (pid: 273598)
+[2024-04-24 15:59:32 +0700] [273601] [INFO] Worker exiting (pid: 273601)
+[2024-04-24 15:59:32 +0700] [273604] [INFO] Worker exiting (pid: 273604)
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273581) exited with code 1
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273581) exited with code 1.
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273585) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [273614] [INFO] Booting worker with pid: 273614
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273587) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273590) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273598) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273599) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273601) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273603) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273604) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273578) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273597) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273580) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273583) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273589) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273576) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273602) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [65041] [ERROR] Worker (pid:273600) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 15:59:32 +0700] [273615] [INFO] Booting worker with pid: 273615
+[2024-04-24 15:59:32 +0700] [273616] [INFO] Booting worker with pid: 273616
+[2024-04-24 15:59:32 +0700] [273618] [INFO] Booting worker with pid: 273618
+[2024-04-24 15:59:32 +0700] [273619] [INFO] Booting worker with pid: 273619
+[2024-04-24 15:59:32 +0700] [273620] [INFO] Booting worker with pid: 273620
+[2024-04-24 15:59:32 +0700] [273622] [INFO] Booting worker with pid: 273622
+[2024-04-24 15:59:33 +0700] [273623] [INFO] Booting worker with pid: 273623
+[2024-04-24 15:59:33 +0700] [273624] [INFO] Booting worker with pid: 273624
+[2024-04-24 15:59:33 +0700] [273626] [INFO] Booting worker with pid: 273626
+[2024-04-24 15:59:33 +0700] [273627] [INFO] Booting worker with pid: 273627
+[2024-04-24 15:59:33 +0700] [273628] [INFO] Booting worker with pid: 273628
+[2024-04-24 15:59:33 +0700] [273629] [INFO] Booting worker with pid: 273629
+[2024-04-24 15:59:33 +0700] [273630] [INFO] Booting worker with pid: 273630
+[2024-04-24 15:59:33 +0700] [273631] [INFO] Booting worker with pid: 273631
+[2024-04-24 15:59:33 +0700] [273633] [INFO] Booting worker with pid: 273633
+[2024-04-24 15:59:33 +0700] [273634] [INFO] Booting worker with pid: 273634
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273614)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273615)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273616)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273618)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273619)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273620)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273622)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273623)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273624)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273626)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273627)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273628)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273629)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273630)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273631)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273633)
+[2024-04-24 17:27:51 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:273634)
+[2024-04-24 17:27:51 +0700] [273618] [INFO] Worker exiting (pid: 273618)
+[2024-04-24 17:27:51 +0700] [273620] [INFO] Worker exiting (pid: 273620)
+[2024-04-24 17:27:51 +0700] [273614] [INFO] Worker exiting (pid: 273614)
+[2024-04-24 17:27:51 +0700] [273623] [INFO] Worker exiting (pid: 273623)
+[2024-04-24 17:27:51 +0700] [273616] [INFO] Worker exiting (pid: 273616)
+[2024-04-24 17:27:51 +0700] [273619] [INFO] Worker exiting (pid: 273619)
+[2024-04-24 17:27:51 +0700] [273622] [INFO] Worker exiting (pid: 273622)
+[2024-04-24 17:27:51 +0700] [273633] [INFO] Worker exiting (pid: 273633)
+[2024-04-24 17:27:51 +0700] [273628] [INFO] Worker exiting (pid: 273628)
+[2024-04-24 17:27:51 +0700] [273627] [INFO] Worker exiting (pid: 273627)
+[2024-04-24 17:40:51 +0700] [273615] [INFO] Worker exiting (pid: 273615)
+[2024-04-24 17:40:51 +0700] [273624] [INFO] Worker exiting (pid: 273624)
+[2024-04-24 17:40:51 +0700] [273630] [INFO] Worker exiting (pid: 273630)
+[2024-04-24 17:40:51 +0700] [273631] [INFO] Worker exiting (pid: 273631)
+[2024-04-24 17:40:51 +0700] [273626] [INFO] Worker exiting (pid: 273626)
+[2024-04-24 17:40:51 +0700] [273634] [INFO] Worker exiting (pid: 273634)
+[2024-04-24 17:40:51 +0700] [273629] [INFO] Worker exiting (pid: 273629)
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273630) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273618) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273619) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273627) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273628) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273629) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273622) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273631) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273624) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273623) was sent SIGKILL! Perhaps out of memory?
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+RuntimeError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 1103, in emit
+    stream.write(msg + self.terminator)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+Call stack:
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273633) was sent SIGKILL! Perhaps out of memory?
+  File "/home/erp14/frappe-bench/env/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 545, in reap_workers
+    sig_name = signal.Signals(status).name
+  File "/usr/lib/python3.10/types.py", line 181, in __get__
+    elif self.fget is None:
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 559, in reap_workers
+    worker.tmp.close()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/workertmp.py", line 55, in close
+    return self._tmp.close()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 271, in error
+    def error(self, msg, *args, **kwargs):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1622, in _log
+    record = self.makeRecord(self.name, level, fn, lno, msg, args,
+  File "/usr/lib/python3.10/logging/__init__.py", line 1591, in makeRecord
+    rv = _logRecordFactory(name, level, fn, lno, msg, args, exc_info, func,
+  File "/usr/lib/python3.10/logging/__init__.py", line 309, in __init__
+    if (args and len(args) == 1 and isinstance(args[0], collections.abc.Mapping)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 560, in reap_workers
+    self.cfg.child_exit(self, worker)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/config.py", line 64, in __getattr__
+    def __getattr__(self, name):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+Message: 'Worker (pid:273629) was sent SIGKILL! Perhaps out of memory?'
+Arguments: ()
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273626) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273614) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [65041] [ERROR] Worker (pid:273634) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 17:40:51 +0700] [276624] [INFO] Booting worker with pid: 276624
+[2024-04-24 17:40:51 +0700] [276625] [INFO] Booting worker with pid: 276625
+[2024-04-24 17:40:52 +0700] [276626] [INFO] Booting worker with pid: 276626
+[2024-04-24 17:40:52 +0700] [276627] [INFO] Booting worker with pid: 276627
+[2024-04-24 17:40:52 +0700] [276628] [INFO] Booting worker with pid: 276628
+[2024-04-24 17:40:52 +0700] [276629] [INFO] Booting worker with pid: 276629
+[2024-04-24 17:40:52 +0700] [276630] [INFO] Booting worker with pid: 276630
+[2024-04-24 17:40:52 +0700] [276631] [INFO] Booting worker with pid: 276631
+[2024-04-24 17:40:52 +0700] [276632] [INFO] Booting worker with pid: 276632
+[2024-04-24 17:40:52 +0700] [276633] [INFO] Booting worker with pid: 276633
+[2024-04-24 17:40:52 +0700] [276634] [INFO] Booting worker with pid: 276634
+[2024-04-24 17:40:52 +0700] [276635] [INFO] Booting worker with pid: 276635
+[2024-04-24 17:40:52 +0700] [276636] [INFO] Booting worker with pid: 276636
+[2024-04-24 17:40:52 +0700] [276637] [INFO] Booting worker with pid: 276637
+[2024-04-24 17:40:52 +0700] [276638] [INFO] Booting worker with pid: 276638
+[2024-04-24 17:40:53 +0700] [276639] [INFO] Booting worker with pid: 276639
+[2024-04-24 17:40:53 +0700] [276640] [INFO] Booting worker with pid: 276640
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276624)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276625)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276626)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276627)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276628)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276629)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276630)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276631)
+[2024-04-24 18:16:37 +0700] [276627] [INFO] Worker exiting (pid: 276627)
+[2024-04-24 18:16:37 +0700] [276626] [INFO] Worker exiting (pid: 276626)
+[2024-04-24 18:16:37 +0700] [276628] [INFO] Worker exiting (pid: 276628)
+[2024-04-24 18:16:37 +0700] [276625] [INFO] Worker exiting (pid: 276625)
+[2024-04-24 18:16:37 +0700] [276624] [INFO] Worker exiting (pid: 276624)
+[2024-04-24 18:16:37 +0700] [276630] [INFO] Worker exiting (pid: 276630)
+[2024-04-24 18:16:37 +0700] [276629] [INFO] Worker exiting (pid: 276629)
+[2024-04-24 18:16:37 +0700] [276631] [INFO] Worker exiting (pid: 276631)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276632)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276633)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276634)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276635)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276636)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276637)
+[2024-04-24 18:16:37 +0700] [276632] [INFO] Worker exiting (pid: 276632)
+[2024-04-24 18:16:37 +0700] [276634] [INFO] Worker exiting (pid: 276634)
+[2024-04-24 18:16:37 +0700] [276637] [INFO] Worker exiting (pid: 276637)
+[2024-04-24 18:16:37 +0700] [276636] [INFO] Worker exiting (pid: 276636)
+[2024-04-24 18:16:37 +0700] [276635] [INFO] Worker exiting (pid: 276635)
+[2024-04-24 18:16:37 +0700] [276633] [INFO] Worker exiting (pid: 276633)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276638)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276639)
+[2024-04-24 18:16:37 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276640)
+[2024-04-24 18:16:37 +0700] [276638] [INFO] Worker exiting (pid: 276638)
+[2024-04-24 18:16:37 +0700] [276639] [INFO] Worker exiting (pid: 276639)
+[2024-04-24 18:16:37 +0700] [276640] [INFO] Worker exiting (pid: 276640)
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276640) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276632) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276627) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276629) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276631) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276634) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276635) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276638) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276624) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276630) was sent SIGKILL! Perhaps out of memory?
+--- Logging error ---
+Traceback (most recent call last):
+[2024-04-24 18:16:38 +0700] [276643] [INFO] Booting worker with pid: 276643
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276625) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276633) was sent SIGKILL! Perhaps out of memory?
+Exception ignored in: <function _releaseLock at 0x7f59c2c929e0>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/logging/__init__.py", line 228, in _releaseLock
+    def _releaseLock():
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276636) was sent SIGKILL! Perhaps out of memory?
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1612, in _log
+    fn, lno, func, sinfo = self.findCaller(stack_info, stacklevel)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1566, in findCaller
+    while hasattr(f, "f_code"):
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1022, in handleError
+    traceback.print_exception(t, v, tb, None, sys.stderr)
+  File "/usr/lib/python3.10/traceback.py", line 121, in print_exception
+    print(line, file=file, end="")
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/arbiter.py", line 554, in reap_workers
+    self.log.error(msg)
+  File "/home/erp14/frappe-bench/env/lib/python3.10/site-packages/gunicorn/glogging.py", line 272, in error
+    self.error_log.error(msg, *args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1506, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1624, in _log
+    self.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1634, in handle
+    self.callHandlers(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1696, in callHandlers
+    hdlr.handle(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 968, in handle
+    self.emit(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1108, in emit
+    self.handleError(record)
+  File "/usr/lib/python3.10/logging/__init__.py", line 1021, in handleError
+    sys.stderr.write('--- Logging error ---\n')
+RuntimeError: reentrant call inside <_io.BufferedWriter name='<stderr>'>
+[2024-04-24 18:16:38 +0700] [65041] [ERROR] Worker (pid:276626) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 18:16:38 +0700] [276644] [INFO] Booting worker with pid: 276644
+[2024-04-24 18:16:38 +0700] [276645] [INFO] Booting worker with pid: 276645
+[2024-04-24 18:16:38 +0700] [276646] [INFO] Booting worker with pid: 276646
+[2024-04-24 18:16:38 +0700] [276647] [INFO] Booting worker with pid: 276647
+[2024-04-24 18:16:38 +0700] [276648] [INFO] Booting worker with pid: 276648
+[2024-04-24 18:16:39 +0700] [276649] [INFO] Booting worker with pid: 276649
+[2024-04-24 18:16:39 +0700] [276650] [INFO] Booting worker with pid: 276650
+[2024-04-24 18:16:39 +0700] [276651] [INFO] Booting worker with pid: 276651
+[2024-04-24 18:16:39 +0700] [276652] [INFO] Booting worker with pid: 276652
+[2024-04-24 18:16:39 +0700] [276653] [INFO] Booting worker with pid: 276653
+[2024-04-24 18:16:39 +0700] [276654] [INFO] Booting worker with pid: 276654
+[2024-04-24 18:16:39 +0700] [276655] [INFO] Booting worker with pid: 276655
+[2024-04-24 18:16:39 +0700] [276656] [INFO] Booting worker with pid: 276656
+[2024-04-24 18:16:39 +0700] [276657] [INFO] Booting worker with pid: 276657
+[2024-04-24 18:16:39 +0700] [276658] [INFO] Booting worker with pid: 276658
+[2024-04-24 18:16:39 +0700] [276659] [INFO] Booting worker with pid: 276659
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276643)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276644)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276645)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276646)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276647)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276648)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276649)
+[2024-04-24 23:22:01 +0700] [276643] [INFO] Worker exiting (pid: 276643)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276650)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276651)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276652)
+[2024-04-24 23:22:01 +0700] [276645] [INFO] Worker exiting (pid: 276645)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276653)
+[2024-04-24 23:22:01 +0700] [276647] [INFO] Worker exiting (pid: 276647)
+[2024-04-24 23:22:01 +0700] [276653] [INFO] Worker exiting (pid: 276653)
+[2024-04-24 23:22:01 +0700] [276648] [INFO] Worker exiting (pid: 276648)
+[2024-04-24 23:22:01 +0700] [276644] [INFO] Worker exiting (pid: 276644)
+[2024-04-24 23:22:01 +0700] [276646] [INFO] Worker exiting (pid: 276646)
+[2024-04-24 23:22:01 +0700] [276649] [INFO] Worker exiting (pid: 276649)
+[2024-04-24 23:22:01 +0700] [276652] [INFO] Worker exiting (pid: 276652)
+[2024-04-24 23:22:01 +0700] [276651] [INFO] Worker exiting (pid: 276651)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276654)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276655)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276656)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276657)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276658)
+[2024-04-24 23:22:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276659)
+[2024-04-24 23:22:01 +0700] [276654] [INFO] Worker exiting (pid: 276654)
+[2024-04-24 23:22:01 +0700] [276655] [INFO] Worker exiting (pid: 276655)
+[2024-04-24 23:22:01 +0700] [276656] [INFO] Worker exiting (pid: 276656)
+[2024-04-24 23:22:01 +0700] [276658] [INFO] Worker exiting (pid: 276658)
+[2024-04-24 23:22:01 +0700] [276650] [INFO] Worker exiting (pid: 276650)
+[2024-04-24 23:22:01 +0700] [276657] [INFO] Worker exiting (pid: 276657)
+[2024-04-24 23:22:01 +0700] [276659] [INFO] Worker exiting (pid: 276659)
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276643) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276652) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276658) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [276661] [INFO] Booting worker with pid: 276661
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276644) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276654) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276655) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276659) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276647) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276649) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276645) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276657) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [276662] [INFO] Booting worker with pid: 276662
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276648) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276656) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:02 +0700] [65041] [ERROR] Worker (pid:276653) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:03 +0700] [65041] [ERROR] Worker (pid:276646) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:03 +0700] [276663] [INFO] Booting worker with pid: 276663
+[2024-04-24 23:22:03 +0700] [65041] [ERROR] Worker (pid:276650) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:03 +0700] [65041] [ERROR] Worker (pid:276651) was sent SIGKILL! Perhaps out of memory?
+[2024-04-24 23:22:03 +0700] [276664] [INFO] Booting worker with pid: 276664
+[2024-04-24 23:22:03 +0700] [276665] [INFO] Booting worker with pid: 276665
+[2024-04-24 23:22:03 +0700] [276666] [INFO] Booting worker with pid: 276666
+[2024-04-24 23:22:03 +0700] [276667] [INFO] Booting worker with pid: 276667
+[2024-04-24 23:22:03 +0700] [276668] [INFO] Booting worker with pid: 276668
+[2024-04-24 23:22:03 +0700] [276669] [INFO] Booting worker with pid: 276669
+[2024-04-24 23:22:03 +0700] [276670] [INFO] Booting worker with pid: 276670
+[2024-04-24 23:22:03 +0700] [276671] [INFO] Booting worker with pid: 276671
+[2024-04-24 23:22:03 +0700] [276672] [INFO] Booting worker with pid: 276672
+[2024-04-24 23:22:03 +0700] [276673] [INFO] Booting worker with pid: 276673
+[2024-04-24 23:22:03 +0700] [276674] [INFO] Booting worker with pid: 276674
+[2024-04-24 23:22:03 +0700] [276675] [INFO] Booting worker with pid: 276675
+[2024-04-24 23:22:03 +0700] [276676] [INFO] Booting worker with pid: 276676
+[2024-04-24 23:22:03 +0700] [276677] [INFO] Booting worker with pid: 276677
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276661)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276662)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276663)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276664)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276665)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276666)
+[2024-04-25 07:46:00 +0700] [276661] [INFO] Worker exiting (pid: 276661)
+[2024-04-25 07:46:00 +0700] [276662] [INFO] Worker exiting (pid: 276662)
+[2024-04-25 07:46:00 +0700] [276666] [INFO] Worker exiting (pid: 276666)
+[2024-04-25 07:46:00 +0700] [276664] [INFO] Worker exiting (pid: 276664)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276667)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276668)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276669)
+[2024-04-25 07:46:00 +0700] [276667] [INFO] Worker exiting (pid: 276667)
+[2024-04-25 07:46:00 +0700] [276669] [INFO] Worker exiting (pid: 276669)
+[2024-04-25 07:46:00 +0700] [276663] [INFO] Worker exiting (pid: 276663)
+[2024-04-25 07:46:00 +0700] [276668] [INFO] Worker exiting (pid: 276668)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276670)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276671)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276672)
+[2024-04-25 07:46:00 +0700] [276670] [INFO] Worker exiting (pid: 276670)
+[2024-04-25 07:46:00 +0700] [276672] [INFO] Worker exiting (pid: 276672)
+[2024-04-25 07:46:00 +0700] [276671] [INFO] Worker exiting (pid: 276671)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276673)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276674)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276675)
+[2024-04-25 07:46:00 +0700] [276675] [INFO] Worker exiting (pid: 276675)
+[2024-04-25 07:46:00 +0700] [276674] [INFO] Worker exiting (pid: 276674)
+[2024-04-25 07:46:00 +0700] [276673] [INFO] Worker exiting (pid: 276673)
+[2024-04-25 07:46:00 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276676)
+[2024-04-25 07:46:01 +0700] [65041] [CRITICAL] WORKER TIMEOUT (pid:276677)
+[2024-04-25 07:46:01 +0700] [276676] [INFO] Worker exiting (pid: 276676)
+[2024-04-25 07:46:01 +0700] [276677] [INFO] Worker exiting (pid: 276677)
+[2024-04-25 07:46:01 +0700] [276665] [INFO] Worker exiting (pid: 276665)
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276664) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276672) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276662) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276669) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276666) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276667) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276670) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276663) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276665) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276668) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276671) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276673) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276674) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276675) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276676) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276677) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [276683] [INFO] Booting worker with pid: 276683
+[2024-04-25 07:46:02 +0700] [276685] [INFO] Booting worker with pid: 276685
+[2024-04-25 07:46:02 +0700] [276686] [INFO] Booting worker with pid: 276686
+[2024-04-25 07:46:02 +0700] [276687] [INFO] Booting worker with pid: 276687
+[2024-04-25 07:46:02 +0700] [65041] [ERROR] Worker (pid:276661) was sent SIGKILL! Perhaps out of memory?
+[2024-04-25 07:46:02 +0700] [276689] [INFO] Booting worker with pid: 276689
+[2024-04-25 07:46:03 +0700] [276690] [INFO] Booting worker with pid: 276690
+[2024-04-25 07:46:03 +0700] [276694] [INFO] Booting worker with pid: 276694
+[2024-04-25 07:46:03 +0700] [276696] [INFO] Booting worker with pid: 276696
+[2024-04-25 07:46:03 +0700] [276698] [INFO] Booting worker with pid: 276698
+[2024-04-25 07:46:03 +0700] [276702] [INFO] Booting worker with pid: 276702
+[2024-04-25 07:46:03 +0700] [276703] [INFO] Booting worker with pid: 276703
+[2024-04-25 07:46:03 +0700] [276708] [INFO] Booting worker with pid: 276708
+[2024-04-25 07:46:03 +0700] [276714] [INFO] Booting worker with pid: 276714
+[2024-04-25 07:46:03 +0700] [276718] [INFO] Booting worker with pid: 276718
+[2024-04-25 07:46:03 +0700] [276720] [INFO] Booting worker with pid: 276720
+[2024-04-25 07:46:04 +0700] [276722] [INFO] Booting worker with pid: 276722
+[2024-04-25 07:46:04 +0700] [276727] [INFO] Booting worker with pid: 276727
